@@ -49,6 +49,9 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@webtoon/psd": "^0.2.0"
+  },
   "devDependencies": {
     "@babel/types": "^7.17.0",
     "@murongg/eslint-config": "^0.1.2",

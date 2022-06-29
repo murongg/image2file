@@ -7,6 +7,7 @@ importers:
       '@babel/types': ^7.17.0
       '@murongg/eslint-config': ^0.1.2
       '@types/node': ^17.0.35
+      '@webtoon/psd': ^0.2.0
       bumpp: ^7.1.1
       eslint: ^8.16.0
       esno: ^0.16.3
@@ -18,6 +19,8 @@ importers:
       unbuild: ^0.7.4
       vite: ^2.9.9
       vitest: ^0.12.9
+    dependencies:
+      '@webtoon/psd': 0.2.0
     devDependencies:
       '@babel/types': 7.18.4
       '@murongg/eslint-config': 0.1.2_ud6rd4xtew5bv4yhvkvu24pzm4
@@ -714,6 +717,10 @@ packages:
       '@typescript-eslint/types': 5.27.0
       eslint-visitor-keys: 3.3.0
     dev: true
+
+  /@webtoon/psd/0.2.0:
+    resolution: {integrity: sha512-4i/o6CknkuLyKAws671PQnrJeCZKJfIY3iM6O3GHqB3oyUzPpMI+Gt+h7pluKr56b1ljal5wwiVon5SOBT7Xxw==}
+    dev: false
 
   /acorn-jsx/5.3.2_acorn@8.7.1:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
