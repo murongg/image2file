@@ -2,7 +2,7 @@
   "name": "image2file",
   "version": "0.0.1",
   "packageManager": "pnpm@7.1.5",
-  "description": "",
+  "description": "Simple image / svg / psd / file transform",
   "author": "MuRong <admin@imuboy.cn>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/murongg",
