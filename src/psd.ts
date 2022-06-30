@@ -1,5 +1,5 @@
 import Psd from '@webtoon/psd'
-import { imageDataToFile, imageDataToImageElement } from './image'
+import { imageDataToFile, imageDataToImageElement, imageToBase64 } from './image'
 
 /**
  * PSD to image file
@@ -23,6 +23,18 @@ export async function psdToImageFile(file: File, fileType?: string, quality?: nu
 export async function psdToImageElement(file: File, fileType?: string, quality?: number) {
   const imageData = await psdToImageData(file)
   return imageDataToImageElement(imageData, fileType, quality)
+}
+
+/**
+ * PSD to Base64
+ * @param file
+ * @param fileType
+ * @param quality
+ * @returns
+ */
+export async function psdToBase64(file: File, fileType?: string, quality?: number) {
+  const imageData = await psdToImageData(file)
+  return imageToBase64(imageData, fileType, quality)
 }
 
 /**
