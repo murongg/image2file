@@ -2,7 +2,7 @@ import { base64ToFile, base64ToImageElement, fileToBase64 } from './common'
 import { imageToBase64 } from './image'
 
 /**
- * Svg to Svg Base64
+ * SVG to SVG Base64
  * @param file
  * @returns
  */
@@ -13,7 +13,7 @@ export function svgToBase64(file: File | SVGElement) {
 }
 
 /**
- * Svg File to Svg Base64
+ * SVG File to SVG Base64
  * @param file
  * @returns
  */
@@ -22,7 +22,7 @@ export function svgFileToBase64(file: File) {
 }
 
 /**
- * SvgElement to Svg Base64
+ * SVGElement to SVG Base64
  * @param file
  * @returns
  */
@@ -31,7 +31,7 @@ export function svgElementToBase64(file: SVGElement) {
 }
 
 /**
- * Svg to ImageElement
+ * SVG to ImageElement
  * @param file
  * @returns
  */
@@ -42,7 +42,7 @@ export async function svgToImageElement(file: File) {
 }
 
 /**
- * Svg to image base64
+ * SVG to image base64
  * @param file
  * @param fileType
  * @param quality
@@ -57,7 +57,7 @@ export async function svgToImageBase64(file: File, fileType?: string, quality?: 
 }
 
 /**
- * Svg to image file
+ * SVG to image file
  * @param file
  * @returns
  */

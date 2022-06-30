@@ -22,14 +22,14 @@ import { imageToBase64 } from 'image2file'
 | `imageDataToImageElement` | ImageData to HTMLImageElement |
 | `imageToBase64`           | Image to Base64               |
 
-### Svg Functions
+### SVG Functions
 | name                | description            |
 | ------------------- | ---------------------- |
-| `svgToBase64`       | Svg to svg base64      |
-| `svgFileToBase64`   | Svg File to Svg Base64 |
-| `svgToImageElement` | Svg to ImageElement    |
-| `svgToImageBase64`  | Svg to image base64    |
-| `svgToImageFile`    | Svg to image file      |
+| `svgToBase64`       | SVG to svg base64      |
+| `svgFileToBase64`   | SVG File to SVG Base64 |
+| `svgToImageElement` | SVG to ImageElement    |
+| `svgToImageBase64`  | SVG to image base64    |
+| `svgToImageFile`    | SVG to image file      |
 
 ### PSD Functions
 | name                | description             |
