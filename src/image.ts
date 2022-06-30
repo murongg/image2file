@@ -53,6 +53,8 @@ export function imageToBase64(image: ImageData | HTMLImageElement, fileType = 'i
     }
     else if (image instanceof HTMLImageElement) {
       image.onload = () => {
+        canvasElement.width = image.width
+        canvasElement.height = image.height
         context?.drawImage(image, 0, 0, image.width, image.height)
         const dataURL = canvasElement.toDataURL(fileType, quality)
         resolve(dataURL)
