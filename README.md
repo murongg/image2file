@@ -15,12 +15,13 @@ import { imageToBase64 } from 'image2file'
 ## ✈️ Functions
 
 ### Image Functions
-| name                      | description                   |
-| ------------------------- | ----------------------------- |
-| `imageDataToFile`         | ImageData to File             |
-| `imageElementToFile`      | HTMLImageElement to File      |
-| `imageDataToImageElement` | ImageData to HTMLImageElement |
-| `imageToBase64`           | Image to Base64               |
+| name                      | description                    |
+| ------------------------- | ------------------------------ |
+| `imageDataToFile`         | ImageData to File              |
+| `imageElementToFile`      | HTMLImageElement to File       |
+| `imageDataToImageElement` | ImageData to HTMLImageElement  |
+| `imageToBase64`           | Image to Base64                |
+| `imageToImageElement`     | Image file to HTMLImageElement |
 
 ### SVG Functions
 | name                | description            |
@@ -39,11 +40,11 @@ import { imageToBase64 } from 'image2file'
 | `psdToImageData`    | PSD to ImageData        |
 
 ### Other Functions
-| name                   | description             |
-| ---------------------- | ----------------------- |
-| `fileToBase64`         | File to Base64          |
-| `blobToArrayBuffer`    | Blob to ArrayBuffer     |
-| `base64ToFile`         | Base64 to File          |
+| name                   | description                |
+| ---------------------- | -------------------------- |
+| `fileToBase64`         | File to Base64             |
+| `blobToArrayBuffer`    | Blob to ArrayBuffer        |
+| `base64ToFile`         | Base64 to File             |
 | `base64ToImageElement` | Base64 to HTMLImageElement |
 
 ## Type Declares

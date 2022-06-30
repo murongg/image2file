@@ -1,4 +1,4 @@
-import { base64ToFile, base64ToImageElement } from './common'
+import { base64ToFile, base64ToImageElement, fileToBase64 } from './common'
 
 /**
  * ImageData to File
@@ -31,6 +31,17 @@ export async function imageElementToFile(imageEl: HTMLImageElement, filename: st
 export async function imageDataToImageElement(imageData: ImageData, fileType?: string, quality?: number) {
   const base64 = await imageToBase64(imageData, fileType, quality)
   return base64ToImageElement(base64)
+}
+
+/**
+ * Image file to HTMLImageElement
+ * @param imageFile
+ * @returns
+ */
+export async function imageToImageElement(imageFile: File) {
+  const base64 = await fileToBase64(imageFile)
+  if (base64)
+    return base64ToImageElement(base64)
 }
 
 /**
