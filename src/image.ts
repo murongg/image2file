@@ -45,6 +45,15 @@ export async function imageToImageElement(imageFile: File) {
 }
 
 /**
+ * Image file to Base64
+ * @param imageFile
+ * @returns
+ */
+export async function imageFileToBase64(imageFile: File) {
+  return fileToBase64(imageFile)
+}
+
+/**
  * Image to Base64
  * @param image
  * @param fileType
