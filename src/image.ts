@@ -1,3 +1,4 @@
+import { imageTracer } from 'imagetracer'
 import { base64ToFile, base64ToImageElement, fileToBase64 } from './common'
 
 /**
@@ -51,6 +52,14 @@ export async function imageToImageElement(imageFile: File) {
  */
 export async function imageFileToBase64(imageFile: File) {
   return fileToBase64(imageFile)
+}
+
+/**
+ * Image to SVG
+ * @param image
+ */
+export function imageToSvg(image: string) {
+  return imageTracer.imageToSVG(image, 'default')
 }
 
 /**

@@ -12,6 +12,7 @@ importers:
       eslint: ^8.16.0
       esno: ^0.16.3
       husky: ^8.0.1
+      imagetracer: ^0.2.1
       lint-staged: ^13.0.0
       pnpm: ^7.1.5
       rimraf: ^3.0.2
@@ -21,6 +22,7 @@ importers:
       vitest: ^0.12.9
     dependencies:
       '@webtoon/psd': 0.2.0
+      imagetracer: 0.2.1
     devDependencies:
       '@babel/types': 7.18.4
       '@murongg/eslint-config': 0.1.2_ud6rd4xtew5bv4yhvkvu24pzm4
@@ -2543,6 +2545,10 @@ packages:
     resolution: {integrity: sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==}
     engines: {node: '>= 4'}
     dev: true
+
+  /imagetracer/0.2.1:
+    resolution: {integrity: sha512-RPtMMGql4w1MeYuhv2WUBaB7CRbRHEAb9xXzGmrLzWnavK3df6+dWGoq67wzDdsNB0UqZwQA2+7byHERw207KQ==}
+    dev: false
 
   /import-fresh/3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}

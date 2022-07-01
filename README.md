@@ -23,6 +23,7 @@ import { imageToBase64 } from 'image2file'
 | `imageToBase64`           | Image to Base64                |
 | `imageToImageElement`     | Image file to HTMLImageElement |
 | `imageFileToBase64`       | Image file to Base64           |
+| `imageToSvg`              | Image to SVG                   |
 
 ### SVG Functions
 | name                | description            |
@@ -63,6 +64,7 @@ function imageDataToImageElement(imageData: ImageData, fileType?: string, qualit
 function imageToImageElement(imageFile: File): Promise<HTMLImageElement | undefined>
 function imageToBase64(image: ImageData | HTMLImageElement, fileType?: string, quality?: number): Promise<string>
 function imageFileToBase64(imageFile: File): Promise<string | null | undefined>
+function imageToSvg(image: string): Promise<string>
 function psdToImageFile(file: File, fileType?: string, quality?: number): Promise<File>
 function psdToImageElement(file: File, fileType?: string, quality?: number): Promise<HTMLImageElement>
 function psdToImageData(file: File): Promise<ImageData>
