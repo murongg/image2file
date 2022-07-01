@@ -63,6 +63,17 @@ export function imageToSvg(image: string) {
 }
 
 /**
+ * Image file to SVG
+ * @param imageFile
+ * @returns
+ */
+export async function imageFileToSvg(imageFile: File) {
+  const base64 = await imageFileToBase64(imageFile)
+  if (base64)
+    return imageToSvg(base64)
+}
+
+/**
  * Image to Base64
  * @param image
  * @param fileType
