@@ -2,7 +2,7 @@
   "name": "image2file",
   "version": "0.2.0",
   "packageManager": "pnpm@7.1.5",
-  "description": "Simple image / svg / psd / file transform",
+  "description": "Simple image / svg / psd / file convert.",
   "author": "MuRong <admin@imuboy.cn>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/murongg",
@@ -14,7 +14,16 @@
   "bugs": {
     "url": "https://github.com/murongg/image2file/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "png",
+    "gif",
+    "jpg",
+    "jpeg",
+    "svg",
+    "psd",
+    "file",
+    "convert"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
