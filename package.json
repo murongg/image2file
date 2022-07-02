@@ -1,6 +1,6 @@
 {
   "name": "image2file",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "packageManager": "pnpm@7.1.5",
   "description": "Simple image / svg / psd / file convert.",
   "author": "MuRong <admin@imuboy.cn>",
